@@ -21,6 +21,7 @@
 		A99319161911753300A5BD7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99318F81911753300A5BD7E /* UIKit.framework */; };
 		A993191E1911753300A5BD7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A993191C1911753300A5BD7E /* InfoPlist.strings */; };
 		A99319201911753300A5BD7E /* GitTestMBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A993191F1911753300A5BD7E /* GitTestMBTests.m */; };
+		A993192B191176C100A5BD7E /* SYAddNewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A993192A191176C100A5BD7E /* SYAddNewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A993191B1911753300A5BD7E /* GitTestMBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestMBTests-Info.plist"; sourceTree = "<group>"; };
 		A993191D1911753300A5BD7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A993191F1911753300A5BD7E /* GitTestMBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestMBTests.m; sourceTree = "<group>"; };
+		A9931929191176C100A5BD7E /* SYAddNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAddNewClass.h; sourceTree = "<group>"; };
+		A993192A191176C100A5BD7E /* SYAddNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAddNewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A993190A1911753300A5BD7E /* SYViewController.m */,
 				A993190C1911753300A5BD7E /* Images.xcassets */,
 				A99318FB1911753300A5BD7E /* Supporting Files */,
+				A9931929191176C100A5BD7E /* SYAddNewClass.h */,
+				A993192A191176C100A5BD7E /* SYAddNewClass.m */,
 			);
 			path = GitTestMB;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				A993190B1911753300A5BD7E /* SYViewController.m in Sources */,
 				A99319051911753300A5BD7E /* SYAppDelegate.m in Sources */,
 				A99319011911753300A5BD7E /* main.m in Sources */,
+				A993192B191176C100A5BD7E /* SYAddNewClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
